@@ -1,0 +1,18 @@
+developer.nickname.not_blank: Please enter nickname.
+developer.nickname.min_lenght: Your nickname must be at least {{ limit }} characters long
+developer.nickname.max_lenght: Your nickname cannot be longer than {{ limit }} characters
+developer.tag_line.not_blank: Please enter tag line.
+developer.tag_line.min_lenght: Your tag line must be at least {{ limit }} characters long
+developer.tag_line.max_lenght: Your tag line cannot be longer than {{ limit }} characters
+developer.nickname.exists: Developer with this nickname already exists.
+
+project.name.not_blank: Please enter project name.
+project.name.min_lenght: Your project name must be at least {{ limit }} characters long
+project.name.max_lenght: Your project name cannot be longer than {{ limit }} characters
+project.level.not_blank: You need to enter project level.
+project.experience.not_blank: You need to enter experience points.
+project.price.not_blank: You need to enter price.
+project.days.not_blank: You need to enter days for project.
+
+fight.price.not_blank: You need enter your price.
+fight.days.not_blank: You need enter your deadline (in days).

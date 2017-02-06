@@ -1,0 +1,32 @@
+#Developer
+api_game_developer_new:
+    path: /developers/new
+    defaults: {_controller: 'ApiGameBundle:Developer:newDeveloper'}
+    methods: [POST]
+
+api_game_developers_list:
+    path: /developers/list
+    defaults: {_controller: 'ApiGameBundle:Developer:getDevelopersList'}
+    methods: [GET]
+
+api_game_developer_skills:
+    path: /developers/skills
+    defaults: {_controller: 'ApiGameBundle:DeveloperSkills:getDeveloperSkillsList'}
+    methods: [GET]
+
+#Project
+api_game_project_new:
+    path: /project/new
+    defaults: {_controller: 'ApiGameBundle:Project:newProject'}
+    methods: [POST]
+
+api_game_projects_list:
+    path: /project/list
+    defaults: {_controller: 'ApiGameBundle:Project:getProjectList'}
+    methods: [GET]
+
+#Fight
+api_game_developer_fight:
+    path: /fight/project
+    defaults: {_controller: 'ApiGameBundle:Fight:newFight'}
+    methods: [POST]

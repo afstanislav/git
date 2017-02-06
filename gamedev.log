@@ -1,0 +1,4 @@
+127.0.0.1 - - [06/Feb/2017:11:14:20 +0200] "GET /app_dev.php/developers/list HTTP/1.1" 200 305 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"
+127.0.0.1 - - [06/Feb/2017:11:14:21 +0200] "GET /app_dev.php/developers/list HTTP/1.1" 200 305 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"
+127.0.0.1 - - [06/Feb/2017:11:19:28 +0200] "GET /app_dev.php/developers/list HTTP/1.1" 200 305 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"
+127.0.0.1 - - [06/Feb/2017:11:19:31 +0200] "GET /app_dev.php/developers/skills HTTP/1.1" 200 199 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"

@@ -1,0 +1,8 @@
+services:
+    api_game.developer_level_strategy:
+        class: ApiGameBundle\Utils\DeveloperLevelStrategy\DeveloperLevelStrategyContext
+        arguments: ['skills']
+
+    api_game.developer_fight:
+        class: ApiGameBundle\Utils\FightService
+        arguments: ['@doctrine.orm.entity_manager']

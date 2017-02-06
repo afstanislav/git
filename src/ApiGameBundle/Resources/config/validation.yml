@@ -1,0 +1,45 @@
+ApiGameBundle\Entity\Developer:
+    constraints:
+        - Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity:
+            fields: [nickname]
+            message: developer.nickname.exists
+    properties:
+        nickname:
+            - NotBlank: { message: developer.nickname.not_blank }
+            - Length:
+                min: 2
+                max: 100
+                minMessage: developer.nickname.min_lenght
+                maxMessage: developer.nickname.max_lenght
+        tagLine:
+            - NotBlank: { message: developer.tag_line.not_blank }
+            - Length:
+                min: 2
+                max: 255
+                minMessage: developer.tag_line.min_lenght
+                maxMessage: developer.tag_line.max_lenght
+
+ApiGameBundle\Entity\Project:
+    properties:
+        name:
+            - NotBlank: { message: project.name.not_blank }
+            - Length:
+                min: 2
+                max: 100
+                minMessage: project.name.min_lenght
+                maxMessage: project.name.max_lenght
+        level:
+            - NotBlank: { message: project.level.not_blank }
+        experiencePoints:
+            - NotBlank: { message: project.experience.not_blank }
+        price:
+            - NotBlank: { message: project.price.not_blank }
+        days:
+            - NotBlank: { message: project.days.not_blank }
+
+ApiGameBundle\Entity\Fight:
+    properties:
+        proposedPrice:
+            - NotBlank: { message: fight.price.not_blank }
+        proposedDays:
+            - NotBlank: { message: fight.days.not_blank }
